@@ -294,6 +294,8 @@ footer {
     flex-direction: column-reverse;
     justify-content: center;
     padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 .home .walk .walk-text {
