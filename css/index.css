@@ -10,6 +10,29 @@
   background-color: white;
   color: navy;
 }
+@keyframes slide {
+  0% {
+    margin-left: -300%;
+  }
+  5% {
+    margin-left: -200%;
+  }
+  33% {
+    margin-left: -200%;
+  }
+  38% {
+    margin-left: -100%;
+  }
+  66% {
+    margin-left: -100%;
+  }
+  71% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -228,7 +251,7 @@ footer {
 @media (max-width: 500px) {
   .home .intro img {
     height: 15rem;
-    margin-top: 25%;
+    margin-top: 30%;
   }
 }
 @media (max-width: 500px) {
@@ -294,8 +317,6 @@ footer {
     flex-direction: column-reverse;
     justify-content: center;
     padding: 0;
-    margin-left: 5%;
-    margin-right: 5%;
   }
 }
 .home .walk .walk-text {
@@ -342,7 +363,6 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
-    margin: 0 auto;
   }
 }
 .home .walk .walk-img img {
